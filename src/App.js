@@ -13,6 +13,7 @@ import Termsandconditions from './screens/Termsandconditions';
 import Privacypolicy from './screens/Privacypolicy';
 import Faq from './screens/Faq';
 import Latestannouncements from './screens/Latestannouncements';
+import Notfound from './screens/Notfound';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
             <Route exact path="/privacy-policy" element={ <Privacypolicy />} />
             <Route exact path="/faq" element={ <Faq />} />
             <Route exact path="/latest-announcements" element={ <Latestannouncements />} />
+            <Route path="*" element={ <Notfound /> } />
         </Routes>
     </Router>
   )
