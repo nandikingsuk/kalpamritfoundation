@@ -36,12 +36,12 @@ const Sitemap = () => {
                         <li class="list-group-item border-0"><Link className="card-text text-decoration-none text-dark" to="/environment"><span class="material-icons align-bottom">check_circle_outline</span> Environment</Link></li>
                         <li class="list-group-item border-0"><Link className="card-text text-decoration-none text-dark" to="/trustee"><span class="material-icons align-bottom">check_circle_outline</span> Trustee</Link></li>
                         <li class="list-group-item border-0"><Link className="card-text text-decoration-none text-dark" to="/donors"><span class="material-icons align-bottom">check_circle_outline</span> Donors</Link></li>
-                        <li class="list-group-item border-0"><Link className="card-text text-decoration-none text-dark" to="/sitemap"><span class="material-icons align-bottom">check_circle_outline</span> Donate us</Link></li>
+                        <li class="list-group-item border-0"><Link className="card-text text-decoration-none text-dark" to="/donate-us"><span class="material-icons align-bottom">check_circle_outline</span> Donate us</Link></li>
                     </ul>
                 </div>
                 <div class="card border-0">
                     <ul class="list-group">
-                        <li class="list-group-item border-0"><Link className="card-text text-decoration-none text-dark" to="/terms-and-conditons"><span class="material-icons align-bottom">check_circle_outline</span> Terms &amp; condition</Link></li>
+                        <li class="list-group-item border-0"><Link className="card-text text-decoration-none text-dark" to="/terms-and-conditions"><span class="material-icons align-bottom">check_circle_outline</span> Terms &amp; condition</Link></li>
                         <li class="list-group-item border-0"><Link className="card-text text-decoration-none text-dark" to="/privacy-policy"><span class="material-icons align-bottom">check_circle_outline</span> Privacy policy</Link></li>
                         <li class="list-group-item border-0"><Link className="card-text text-decoration-none text-dark" to="/faq"><span class="material-icons align-bottom">check_circle_outline</span> FAQs</Link></li>
                         <li class="list-group-item border-0"><Link className="card-text text-decoration-none text-dark" to="/latest-announcements"><span class="material-icons align-bottom">check_circle_outline</span> Latest announcement</Link></li>
@@ -55,9 +55,9 @@ const Sitemap = () => {
                 </div>
                 <div class="card border-0">
                     <ul class="list-group">
-                        <li class="list-group-item border-0"><a className="card-text text-decoration-none text-dark" href="https://wa.me/+918979014001"><span class="material-icons align-bottom">check_circle_outline</span> Kalpamrit Holdings Pte Ltd</a></li>
-                        <li class="list-group-item border-0"><a className="card-text text-decoration-none text-dark" href="https://kalpamrit.net/en/customer/create-ticket/"><span class="material-icons align-bottom">check_circle_outline</span> Kalpamrit Holdings Pte Ltd</a></li>
-                        <li class="list-group-item border-0"><a className="card-text text-decoration-none text-dark" href="https://www.facebook.com/Kalpamrit-Foundation-107313184516030"><span class="material-icons align-bottom">check_circle_outline</span> Kalpamrit Holdings Pte Ltd</a></li>
+                        <li class="list-group-item border-0"><a className="card-text text-decoration-none text-dark" href="https://wa.me/+918979014001"><span class="material-icons align-bottom">check_circle_outline</span> Contact through Whatsapp</a></li>
+                        <li class="list-group-item border-0"><a className="card-text text-decoration-none text-dark" href="https://kalpamrit.net/en/customer/create-ticket/"><span class="material-icons align-bottom">check_circle_outline</span> Contact us</a></li>
+                        <li class="list-group-item border-0"><a className="card-text text-decoration-none text-dark" href="https://www.facebook.com/Kalpamrit-Foundation-107313184516030"><span class="material-icons align-bottom">check_circle_outline</span> Facebook</a></li>
                     </ul>
                 </div>
             </div>
