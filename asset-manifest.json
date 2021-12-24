@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/kalpamritfoundation/static/js/main.0b5cf85d.js",
-    "index.html": "/kalpamritfoundation/index.html",
-    "main.0b5cf85d.js.map": "/kalpamritfoundation/static/js/main.0b5cf85d.js.map"
+    "main.js": "/static/js/main.0b5cf85d.js",
+    "index.html": "/index.html",
+    "main.0b5cf85d.js.map": "/static/js/main.0b5cf85d.js.map"
   },
   "entrypoints": [
     "static/js/main.0b5cf85d.js"
