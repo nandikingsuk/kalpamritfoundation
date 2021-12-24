@@ -23,7 +23,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="card bg-dark">
-                    <img src="/assets/kalpamrit_foundation-3.jpg" className="img-fluid" alt="..."/>
+                    <img src="/assets/Kalpamrit_foundation-3.jpg" className="img-fluid" alt="..."/>
                     <div className="card-img-overlay">
                         <div className="card text-center bg-transparent border-0">
                             <div className="card-body">
@@ -44,7 +44,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className="card bg-dark">
-                    <img src="/assets/kalpamrit_foundation-3.jpg" className="img-fluid" alt="..."/>
+                    <img src="/assets/Kalpamrit_foundation-3.jpg" className="img-fluid" alt="..."/>
                     <div className="card-img-overlay">
                         <div className="card text-center bg-transparent border-0">
                             <div className="card-body">
