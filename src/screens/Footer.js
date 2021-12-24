@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="card-body">
                         <h5 className="card-title mb-3">IMPORTANT LINKS</h5>
                         <p><Link className="card-text text-decoration-none text-dark" to="/trustee">Trustee</Link></p>
-                        <p><Link className="card-text text-decoration-none text-dark" to="/donors">Doners</Link></p>
+                        <p><Link className="card-text text-decoration-none text-dark" to="/donors">Donors</Link></p>
                         <p><Link className="card-text text-decoration-none text-dark" to="/donate-us">Donate us</Link></p>
                         <p><Link className="card-text text-decoration-none text-dark" to="/sitemap">Sitemap</Link></p>
                     </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Copyright from './Copyright'
 import Footer from './Footer'
 import Header from './Header'
 
@@ -31,6 +32,7 @@ const Mission = () => {
                     </div>
             </div>
             <Footer/>
+            <Copyright/>
         </>
     )
 }
