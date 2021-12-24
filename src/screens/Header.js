@@ -1,6 +1,6 @@
 import React from 'react'
-
-const header = () => {
+import { Link } from 'react-router-dom'
+const Header = () => {
     return (
         <div>
             {/* header start here */}
@@ -11,25 +11,25 @@ const header = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <a className="navbar-brand" href="#"> KALPAMRIT FOUNDATION TRUST</a>
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">About us</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Mission</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Wildlife</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Environment</a>
-                        </li>
-                        </ul>
-                    </div>
+                        <a className="navbar-brand" href="#"> KALPAMRIT FOUNDATION TRUST</a>
+                            <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/about-us">About us</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/mission">Mission</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/wildlife">Wildlife</Link>
+                            </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/environment">Environment</Link>
+                            </li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
                 {/* header end here */}
@@ -37,5 +37,5 @@ const header = () => {
     )
 }
 
-export default header
+export default Header
 

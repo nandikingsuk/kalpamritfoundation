@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Doners = () => {
+const Donors = () => {
     return (
         <div>
-            <h2>donoers</h2>
+            <h2>donors</h2>
         </div>
     )
 }
 
-export default Doners
+export default Donors
