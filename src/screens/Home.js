@@ -2,9 +2,15 @@ import React from 'react'
 import Footer from './Footer.js'
 import Copyright from './Copyright.js'
 import Header from './Header.js'
+import Helmet from 'react-helmet'
 const Home = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Kalpamrit Foundation</title>
+                <link rel="canonical" href="https://kalpamritfoundation.com/" />
+            </Helmet>
             <Header/>
             <div>
                 {/* home page content start here */}

@@ -3,10 +3,16 @@ import Copyright from './Copyright'
 import Footer from './Footer'
 import Header from './Header'
 import { Link } from 'react-router-dom'
+import Helmet from 'react-helmet'
 
 const Sitemap = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Site map - Kalpamrit Foundation</title>
+                <link rel="canonical" href="https://kalpamritfoundation.com/sitemap/" />
+            </Helmet>
             <Header/>
             <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div className="carousel-inner">

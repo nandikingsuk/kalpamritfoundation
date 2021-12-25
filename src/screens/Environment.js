@@ -2,10 +2,16 @@ import React from 'react'
 import Copyright from './Copyright'
 import Footer from './Footer'
 import Header from './Header'
+import Helmet from 'react-helmet'
 
 const Environment = () => {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Environment - Kalpamrit Foundation</title>
+                <link rel="canonical" href="https://kalpamritfoundation.com/environment/" />
+            </Helmet>
             <Header/>
             <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
