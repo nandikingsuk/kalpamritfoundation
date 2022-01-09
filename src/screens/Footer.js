@@ -45,7 +45,7 @@ const Footer = () => {
                     <div className="card border-0 bg-light">
                     <div className="card-body">
                         <h5 className="card-title mb-3">GET IN TOUCH WITH US</h5>
-                        <p><a className="card-text text-decoration-none text-dark" href="https://wa.me/+918979014001">Contact through Whatsapp</a></p>
+                        <p className="card-text text-decoration-none text-dark">WA: +91 89790 14001</p>
                         <p><a className="card-text text-decoration-none text-dark" href="https://kalpamrit.net/en/customer/create-ticket/">Contact us</a></p>
                         <p><a className="card-text text-decoration-none text-dark" href="https://www.facebook.com/Kalpamrit-Foundation-107313184516030">Facebook</a></p>
                     </div>
