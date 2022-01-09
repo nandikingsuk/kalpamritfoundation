@@ -43,7 +43,7 @@ const Donors = () => {
                         <hr className="p-1 bg-warning w-25"/>
                     </div>
             </div>
-            <div className="card border-0">
+            {/* <div className="card border-0">
                     <div className="card-body mx-4">
                         <h3 className="card-title">Eficaz Projects LLP</h3>
                         <hr className="p-1 bg-warning w-25"/>
@@ -58,6 +58,12 @@ const Donors = () => {
             <div className="card border-0">
                     <div className="card-body mx-4">
                         <h3 className="card-title">Kalpamrit Holdings Pte Ltd</h3>
+                        <hr className="p-1 bg-warning w-25"/>
+                    </div>
+            </div> */}
+            <div className="card border-0">
+                    <div className="card-body mx-4">
+                        <h3 className="card-title">Kalpamrit Nature Care Society</h3>
                         <hr className="p-1 bg-warning w-25"/>
                     </div>
             </div>

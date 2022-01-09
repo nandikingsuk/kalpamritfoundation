@@ -3,6 +3,7 @@ import Copyright from './Copyright'
 import Footer from './Footer'
 import Header from './Header'
 import Helmet from 'react-helmet'
+import { Link } from 'react-router-dom'
 
 const Donateus = () => {
     return (
@@ -19,7 +20,7 @@ const Donateus = () => {
                     <img src="./assets/KF_3_6.jpg" className="d-block w-100" alt="..."/>
                     <div className="carousel-caption d-flex h-100 align-items-center justify-content-center">
                         <div>
-                        <h2><a className="text-white text-decoration-none" href="https://kalpamritfoundation.com/contact/">DONATE US</a></h2>
+                        <h2><Link className="text-white text-decoration-none" to="#">DONATE US</Link></h2>
                         </div>
                     </div>
                     </div>

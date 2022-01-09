@@ -25,29 +25,35 @@ const Trustee = () => {
                     </div>
                 </div>
             </div>
-            <div class="card-group my-4">
-                <div class="card my-4 border-0">
-                    <img src="./assets/trustee_balkrishanarya.png" class="card-img-top w-50 mx-auto" alt="..."/>
-                    <div class="card-body mx-auto">
-                    <h5 class="card-title">Balkrishan Arya</h5>
+            <div className="card-group my-4">
+                <div className="card my-4 border-0">
+                    <img src="./assets/trustee_balkrishanarya.png" className="card-img-top w-50 mx-auto" alt="..."/>
+                    <div className="card-body mx-auto">
+                    <h5 className="card-title">Balkrishan Arya</h5>
                     </div>
                 </div>
-                <div class="card my-4 border-0">
-                    <img src="./assets/trustee_sudeshji.png" class="card-img-top w-50 mx-auto" alt="..."/>
-                    <div class="card-body mx-auto">
-                    <h5 class="card-title">Dr. Sudesh Kumar</h5>
+                <div className="card my-4 border-0">
+                    <img src="./assets/trustee_sudeshji.png" className="card-img-top w-50 mx-auto" alt="..."/>
+                    <div className="card-body mx-auto">
+                    <h5 className="card-title">Dr. Sudesh Kumar</h5>
                     </div>
                 </div>
-                <div class="card my-4 border-0">
-                    <img src="./assets/trustee_satyapalji.png" class="card-img-top w-50 mx-auto" alt="..."/>
-                    <div class="card-body mx-auto">
-                    <h5 class="card-title">Satyapal Yadav</h5>
+                <div className="card my-4 border-0">
+                    <img src="./assets/trustee_deepakji.png" className="card-img-top w-50 mx-auto" alt="..."/>
+                    <div className="card-body mx-auto">
+                    <h5 className="card-title">Deepak Sharma</h5>
                     </div>
                 </div>
-                <div class="card my-4 border-0">
-                    <img src="./assets/nitin_rathi.png" class="card-img-top w-50 mx-auto" alt="..."/>
-                    <div class="card-body mx-auto">
-                    <h5 class="card-title">Nitin Rathi</h5>
+                <div className="card my-4 border-0">
+                    <img src="./assets/trustee_satyapalji.png" className="card-img-top w-50 mx-auto" alt="..."/>
+                    <div className="card-body mx-auto">
+                    <h5 className="card-title">Satyapal Yadav</h5>
+                    </div>
+                </div>
+                <div className="card my-4 border-0">
+                    <img src="./assets/nitin_rathi.png" className="card-img-top w-50 mx-auto" alt="..."/>
+                    <div className="card-body mx-auto">
+                    <h5 className="card-title">Nitin Rathi</h5>
                     </div>
                 </div>
             </div>

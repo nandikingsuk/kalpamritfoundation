@@ -31,12 +31,13 @@ const Footer = () => {
                     <div className="card border-0 bg-light">
                     <div className="card-body">
                         <h5 className="card-title mb-3">SPONSORED BY</h5>
-                        <p><Link className="card-text text-decoration-none text-dark" to="/">Kalpamrit Ayurved Pvt Ltd</Link></p>
+                        <p><Link className="card-text text-decoration-none text-dark" to="#">Kalpamrit Ayurved Pvt Ltd</Link></p>
                         <p><a className="card-text text-decoration-none text-dark" href="https://kalpamritmarketing.com">Kalpamrit Marketing Pvt Ltd</a></p>
                         <p><a className="card-text text-decoration-none text-dark" href="https://rishipathy.com/">Rishipathy Wellness Center</a></p>
-                        <p><a className="card-text text-decoration-none text-dark" href="https://eficazgroup.com/">Eficaz Projects LLP</a></p>
-                        <p><a className="card-text text-decoration-none text-dark" href="https://eficazgroup.com/">Eficaz Holdings Pte Ltd</a></p>
-                        <p><a className="card-text text-decoration-none text-dark" href="https://kalpamritgroup.com/">Kalpamrit Holdings Pte Ltd</a></p>
+                        <p><Link className="card-text text-decoration-none text-dark" to="#">Kalpamrit Nature Care Society</Link></p>
+                        {/* <p><a className="card-text text-decoration-none text-dark" href="https://eficazgroup.com/">Eficaz Projects LLP</a></p> */}
+                        {/* <p><a className="card-text text-decoration-none text-dark" href="https://eficazgroup.com/">Eficaz Holdings Pte Ltd</a></p> */}
+                        {/* <p><a className="card-text text-decoration-none text-dark" href="https://kalpamritgroup.com/">Kalpamrit Ayurved Pvt Ltd</a></p> */}
                     </div>
                     </div>
                 </div>
